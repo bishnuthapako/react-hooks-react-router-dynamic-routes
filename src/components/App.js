@@ -10,6 +10,8 @@ function App() {
     3: { id: 3, title: "Inception" },
   });
 
+  console.log(movies, 'movies')
+
   return (
     <div>
       <NavBar />
